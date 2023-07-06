@@ -11,6 +11,6 @@ public class Homecontroller {
 
     @GetMapping("/")
     public String home(HttpSession session) {
-        return  "hello";
+        return  "akash";
     }
 }
